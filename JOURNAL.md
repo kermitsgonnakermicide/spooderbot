@@ -17,4 +17,12 @@ Settled on a Raspi 5, [this](https://robu.in/product/24v-12v-to-5v-5a-power-modu
 Started attempting to derive the equations for IK, as i have no idea what i'm doing when it comes to math<br>
 **Total Time Spent - 3h**
 
+# June 1st(pt 2): Finished firmware
+Moved all my stereo camera experiments to here and added an obstacle detector to it<br>
+Added a quadraped controller to my exisitng IK program<br>
+Did some OOP and made everything look pretty<br>
+Also made a main program for the shiggles<br>
+Also made a scrappy schematic as there is NO pcb required but ehh, schematic is required so I made it<br>
+Now I only have to work on the 'shipping' aspect - adding more pictures, doing a readme and looking at parts sourcing<br>
+Should be finished by June 2nd, and then i will ship it<br>
 
