@@ -25,4 +25,6 @@ Also made a main program for the shiggles<br>
 Also made a scrappy schematic as there is NO pcb required but ehh, schematic is required so I made it<br>
 Now I only have to work on the 'shipping' aspect - adding more pictures, doing a readme and looking at parts sourcing<br>
 Should be finished by June 2nd, and then i will ship it<br>
+**Total time spent - 3h + ~roughly 6h for the earlier stereo camera stuff so 9h**
 
+**Total across 3 days - 20.5h**
