@@ -15,7 +15,9 @@ Essentially, I'm trying to do **dynamic** walking with this spider, not some fix
 
 I used Fusion360 to build this robot, as its the CAD software I'm most comfortable with<br>
 This robot did NOT need a PCB, as all i'm using is two different breakout boards(one PCA9685 for servo control and a wonderful 12v to 5v 3A power board for powering the pi and servo board)<br>
+![schematic](Assets/schematic.png)
 It took me around 10 hours to build the thing in Fusion, the rest of the time was used for software(i'm bad at math)<br>
+![robot](Assets/roburobu.png)
 
 # BOM
 | ITEM                                                                              | UNIT COST | QTY | TOTAL COST | SOURCE                                                                                                                                                                                                         | NOTES                                                           |
