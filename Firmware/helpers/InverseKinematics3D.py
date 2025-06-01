@@ -1,4 +1,5 @@
 import math
+import time
 
 class InverseKinematics3D:
     def __init__(self, link2_length, link3_length, y_rest, z_rest, leg_angle_offset):
@@ -8,7 +9,7 @@ class InverseKinematics3D:
         self.z_rest = z_rest
         self.leg_angle_offset = leg_angle_offset
 
-    def clamp(self, v): 
+    def clamp(self, v):
         return max(min(v, 1.0), -1.0)
 
     def calculate(self, x, y, z):
@@ -22,7 +23,7 @@ class InverseKinematics3D:
         max_reach = self.j2_length + self.j3_length
         min_reach = abs(self.j2_length - self.j3_length)
         if not (min_reach <= l <= max_reach):
-            raise ValueError("the number you are calling is out of network coverage area 😝")
+            raise ValueError("yeh number network coverage shetra ke bahar hai")
 
         cos_j3 = self.clamp((self.j2_length**2 + self.j3_length**2 - l**2) / (2 * self.j2_length * self.j3_length))
         j3 = math.degrees(math.acos(cos_j3))
@@ -39,3 +40,5 @@ class InverseKinematics3D:
 
         return servo_j1, servo_j2, servo_j3
 
+    def interpolate(self, start, end, steps):
+        return [(start[i] + (end[i] - start[i]) * (step / steps)) for step in range(steps + 1) for i in range(3)]

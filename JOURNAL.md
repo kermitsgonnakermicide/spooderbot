@@ -1,6 +1,8 @@
 # May 30th: Started Fusion Design
 Started on the 3D model of the Spider<br>
 Decided on a quadraped(for now) and designed a 3dof leg<br>
+This leg is around 160 mm long, and I intend to use MG90 servos as SG90s just suck(MG90s still kinda suck, but atleast they suck less)<br>
+Will most likely use some form of I2C servo driver, as I will have a **MINIMUM** of twelve servos<br>
 ![image of robot](foosion.png)<br>
 **Total Time Spent - 7h(i redesigned it 4 times)**
 
