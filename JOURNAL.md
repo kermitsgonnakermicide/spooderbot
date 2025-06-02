@@ -27,7 +27,7 @@ Added a quadraped controller to my exisitng IK program<br>
 Did some OOP and made everything look pretty<br>
 Also made a main program for the shiggles<br>
 Also made a scrappy schematic as there is NO pcb required but ehh, schematic is required so I made it<br>
-![silly schematic](assets/schematic.png)
+![silly schematic](Assets/schematic.png)
 Now I only have to work on the 'shipping' aspect - adding more pictures, doing a readme and looking at parts sourcing<br>
 Should be finished by June 2nd, and then i will ship it<br>
 **Total time spent - 3h + ~roughly 6h for the earlier stereo camera stuff so 9h**
